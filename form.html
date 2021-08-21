@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+</head>
+<h2>Fill the form</h2>
+
+<body>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+
+        <div>
+            <input type="text" name="myName" id="name">
+
+        </div>
+
+        <br>
+
+
+        <div>
+            Position : <input type="text" name="Myrole">
+        </div><br>
+
+        <div>
+            Email Id : <input type="email" name="Myemail">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="mygender"> Female
+            <input type="radio" name="mygender"> other <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Agree with all terms and condition : <input type="checkbox" name="mycheckbox" checked>
+        </div>
+        <br>
+        <div>
+            DOB : <input type="date" name="MyDate">
+        </div><br>
+        <div>
+            Write about youself : <br> <textarea name="mytext" cols="30" rows="10"></textarea> 
+        </div>
+        <br>
+        <div>
+            <label for="car"> Car</label>
+            <select name="mycar" id ="car ">
+                <option value="Indica"> Indica</option>
+                <option value="Swift"> Swift</option> </select>
+        </div>
+        
+
+
+
+        <br>
+        <div>
+            <input type="submit"  value="Submit Now">
+            <input type="reset"  value="Reset Now">
+        </div>
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
